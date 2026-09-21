@@ -1,5 +1,5 @@
 ---
-description: Close the session: run the checks and overwrite <state file>
+description: Close the session: run the checks and overwrite the project's state file
 ---
 
 Close the current session:

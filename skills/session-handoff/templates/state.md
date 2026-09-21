@@ -4,23 +4,23 @@ State at the end of the last session. A new session starts here. This file is
 overwritten whole on close — by `/handoff`, template at the bottom. History
 lives in git, not here.
 
-**Updated:** <date>
+**Updated:** `<date>`
 
 ## Where we stopped
 
-<what was done, what is half-finished, with paths to files>
+`<what was done, what is half-finished, with paths to files>`
 
 ## What is next
 
-<the first step of the next session, concretely: which file to open, what to do in it>
+`<the first step of the next session, concretely: which file to open, what to do in it>`
 
 ## Open ends
 
-<decisions waiting on an answer; temporary stubs; known breakage>
+`<decisions waiting on an answer; temporary stubs; known breakage>`
 
 ## Checks
 
-<output of the checks as-is, including failures; what was not checked, as a list>
+`<output of the checks as-is, including failures; what was not checked, as a list>`
 
 ---
 

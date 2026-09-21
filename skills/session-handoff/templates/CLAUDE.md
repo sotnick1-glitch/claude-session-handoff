@@ -18,7 +18,7 @@ learned, not "at the end of the session". The end may never come.
 
 # Rules
 
-- <rule that breaks the project if violated>
-- <decision already made, not to be re-litigated>
-- <trap someone already fell into once>
-- <boundary that must never be crossed without the owner saying so>
+- `<rule that breaks the project if violated>`
+- `<decision already made, not to be re-litigated>`
+- `<trap someone already fell into once>`
+- `<boundary that must never be crossed without the owner saying so>`
