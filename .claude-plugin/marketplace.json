@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "session-handoff",
+  "description": "A session ritual for Claude Code: open where you stopped, close without losing anything.",
+  "owner": {
+    "name": "sotnick1-glitch",
+    "url": "https://github.com/sotnick1-glitch"
+  },
+  "plugins": [
+    {
+      "name": "session-handoff",
+      "description": "Four plain text files that make a project survive the end of a context window.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
