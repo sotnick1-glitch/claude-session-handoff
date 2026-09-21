@@ -3,7 +3,7 @@
 Ритуал сессии для Claude Code: открыться там, где остановились, и закрыться,
 ничего не потеряв.
 
-*(English below.)*
+**[English](README.en.md)**
 
 ## Зачем
 
@@ -106,38 +106,3 @@
 команде, и вы видите каждое изменение в git-диффе. Так и задумано — система,
 которая пишет сама, однажды запишет неправду, и вы узнаете об этом через месяц.
 
----
-
-# session-handoff (English)
-
-A session ritual for Claude Code: start where you stopped, close without losing
-anything.
-
-**The problem.** A context window always runs out — mid-edit, without warning.
-The next session then knows nothing: what is done, what is broken, why a
-decision was made that way six months ago. The goal of this ritual is that an
-interrupt at any point costs no more than five minutes.
-
-**What it is.** Four plain text files the project carries in its own git repo:
-a `CLAUDE.md` that loads at session start and says what to read, a state file
-that is overwritten whole every close, a `/handoff` command that closes the
-session, and — for large projects — a procedure file and a "question → file"
-index.
-
-**Install:**
-
-```
-/plugin marketplace add sotnick1-glitch/claude-session-handoff
-/plugin install session-handoff@session-handoff
-```
-
-Then say "set up the session ritual" in any project. Or skip the plugin and
-copy `skills/session-handoff/templates/` by hand.
-
-**Three rules that keep it alive:** the index is a table of contents, never a
-summary; the state file is state, never a diary; a durable fact is written the
-moment it is learned, never "at the end of the session" — the end may never
-come.
-
-**One gotcha:** `CLAUDE.md` is only picked up from the directory the session
-was opened in. Open the session in the project folder itself.
